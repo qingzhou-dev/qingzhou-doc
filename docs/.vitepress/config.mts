@@ -1,7 +1,8 @@
 import { defineConfig } from 'vitepress'
+import { withMermaid } from 'vitepress-plugin-mermaid'
 
 // https://vitepress.dev/reference/site-config
-export default defineConfig({
+export default withMermaid(defineConfig({
   title: "轻舟开源",
   description: "轻舟开源 - 构建高性能云原生工具",
   themeConfig: {
@@ -56,4 +57,4 @@ export default defineConfig({
       copyright: 'Copyright © 2024-present QingZhou Dev'
     }
   }
-})
+}))
