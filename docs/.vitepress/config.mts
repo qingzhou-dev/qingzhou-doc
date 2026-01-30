@@ -36,6 +36,7 @@ export default withMermaid(defineConfig({
           text: '使用指南',
           items: [
             { text: '快速开始', link: '/push-server/guide/getting-started' },
+            { text: '注册企业微信', link: '/push-server/guide/register-wechat' },
             { text: '配置详情', link: '/push-server/guide/configuration' }
           ]
         },
