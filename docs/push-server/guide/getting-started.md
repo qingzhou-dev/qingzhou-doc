@@ -1,6 +1,6 @@
 # 快速开始
 
-Push Server 是一个基于 Spring Boot 4 和 GraalVM Native Image 构建的轻量级企业微信消息推送服务。
+Push Server 是一个基于 Spring Boot 3 和 GraalVM Native Image 构建的轻量级企业微信消息推送服务。
 
 ## 工作原理
 
@@ -11,7 +11,7 @@ sequenceDiagram
     participant WeCom as 企业微信服务端
     participant User as 用户微信
 
-    App->>Push: 1. 调用 HTTP 接口 (POST /v1/push)
+    App->>Push: 1. 调用 HTTP 接口 (POST /v2/push)
     Note right of App: 携带 X-API-Key 和消息内容
     Push->>Push: 校验 Key & 限流检查
     Push->>WeCom: 2. 请求企业微信 API

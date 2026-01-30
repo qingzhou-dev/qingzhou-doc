@@ -29,9 +29,8 @@ features:
 
 <div class="vp-doc" style="margin-top: 2rem;">
 
-| 项目 | 描述 | 状态 | 文档 |
-| :--- | :--- | :--- | :--- |
-| **Push Server** | 基于 GraalVM 的超轻量级企业微信消息推送网关 | 🟢 维护中 | [查看文档 →](/push-server/) |
-| **Coming Soon** | 更多精彩项目正在孵化中... | 🥚 孵化中 | - |
+| 项目 | 描述 | 状态     | 文档 |
+| :--- | :--- |:-------| :--- |
+| **Push Server** | 基于 GraalVM 的超轻量级企业微信消息推送网关 | 正在快速迭代 | [查看文档 →](/push-server/) |
 
 </div>

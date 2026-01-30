@@ -4,7 +4,7 @@ Push Server 提供了一个统一的 HTTP 接口用于发送消息。
 
 ## 发送消息接口
 
-- **URL**: `/v1/push`
+- **URL**: `/v2/push`
 - **Method**: `POST`
 - **Content-Type**: `application/json`
 
@@ -32,7 +32,7 @@ Push Server 提供了一个统一的 HTTP 接口用于发送消息。
 #### 1. 发送文本消息 (TEXT)
 
 ```bash
-curl -X POST http://localhost:8000/v1/push \
+curl -X POST http://localhost:8000/v2/push \
   -H "Content-Type: application/json" \
   -H "X-API-Key: your_secret_key" \
   -d '{
@@ -45,7 +45,7 @@ curl -X POST http://localhost:8000/v1/push \
 #### 2. 发送 Markdown 消息 (MARKDOWN)
 
 ```bash
-curl -X POST http://localhost:8000/v1/push \
+curl -X POST http://localhost:8000/v2/push \
   -H "Content-Type: application/json" \
   -H "X-API-Key: your_secret_key" \
   -d '{
@@ -58,7 +58,7 @@ curl -X POST http://localhost:8000/v1/push \
 #### 3. 发送文本卡片消息 (TEXT_CARD)
 
 ```bash
-curl -X POST http://localhost:8000/v1/push \
+curl -X POST http://localhost:8000/v2/push \
   -H "Content-Type: application/json" \
   -H "X-API-Key: your_secret_key" \
   -d '{
@@ -73,7 +73,7 @@ curl -X POST http://localhost:8000/v1/push \
 #### 4. 发送图文消息 (NEWS)
 
 ```bash
-curl -X POST http://localhost:8000/v1/push \
+curl -X POST http://localhost:8000/v2/push \
   -H "Content-Type: application/json" \
   -H "X-API-Key: your_secret_key" \
   -d '{
