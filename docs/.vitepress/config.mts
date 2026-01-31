@@ -3,8 +3,8 @@ import { withMermaid } from 'vitepress-plugin-mermaid'
 
 // https://vitepress.dev/reference/site-config
 export default withMermaid(defineConfig({
-  title: "轻舟开源",
-  description: "轻舟开源 - 构建高性能云原生工具",
+  title: "轻舟",
+  description: "轻舟 - 构建高性能云原生工具",
   head: [
     ['link', { rel: 'icon', href: '/favicon.png' }]
   ],
@@ -50,6 +50,10 @@ export default withMermaid(defineConfig({
         }
       ]
     },
+    outline: {
+      level: [3, 4], // 显示 h2 和 h3 标题
+      label: '本页目录' // 右侧侧边栏显示的标题文本
+    },
 
     socialLinks: [
       { icon: 'github', link: 'https://github.com/qingzhou-dev' }
@@ -57,7 +61,7 @@ export default withMermaid(defineConfig({
 
     footer: {
       message: 'Released under the Apache 2.0 License.',
-      copyright: 'Copyright © 2024-present QingZhou Dev'
+      copyright: 'Copyright © 2026-present QingZhou Dev'
     }
   }
 }))

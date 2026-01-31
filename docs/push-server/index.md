@@ -5,22 +5,22 @@ layout: home
 hero:
   name: "Push Server"
   text: "轻量级消息推送服务"
-  tagline: 基于 Spring Boot 4 与 GraalVM Native Image。秒级启动，极低内存占用，为现代微服务而生。
+  tagline: 专注于极致资源效率。基于 Spring Boot 4 与 GraalVM Native Image，实现 0 毫秒级响应唤醒与超低运行成本。
   actions:
     - theme: brand
       text: 快速开始
       link: /push-server/guide/getting-started
-    - theme: alt
-      text: API 参考
-      link: /push-server/api/
+#    - theme: alt
+#      text: 架构设计
+#      link: /push-server/guide/architecture  # 增加架构说明会显得更专业
 
 features:
   - title: 🚀 极致轻量
-    details: 基于 GraalVM Native Image 构建，无需 JVM 即可运行，启动速度极快，内存占用极低。
-  - title: 📦 开箱即用
-    details: 无需数据库，无复杂的依赖，只需简单的环境变量配置即可快速部署。
-  - title: 🔌 统一接口
-    details: 屏蔽企业微信 API 的复杂性，提供统一、简洁的 HTTP 接口，支持多种消息类型。
-  - title: 🛡️ 安全可靠
-    details: 内置 API Key 鉴权、IP 封禁、限流等安全机制，保障服务稳定运行。
+    details: 基于 GraalVM 静态编译，无需安装 JVM 环境。镜像体积缩小 90%，冷启动时间步入毫秒级时代。
+  - title: ⚡ 零依赖部署
+    details: 无需 MySQL/Redis 等外部数据库，内置状态自管理。支持单文件运行，是边缘计算与微服务的理想选择。
+  - title: 🔌 标准化网关
+    details: 统一多平台推送协议（企业微信等）。自动处理 Token 刷新、重试机制与回调校验，开发者只需关心内容。
+  - title: 🛡️ 企业级保障
+    details: 生产级安全防护。内置多维度的 API Key 校验、访问白名单及智能限流策略，确保服务始终可用。
 ---

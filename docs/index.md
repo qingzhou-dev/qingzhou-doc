@@ -2,35 +2,48 @@
 layout: home
 
 hero:
-  name: "轻舟开源"
+  name: "轻舟"
   text: "欢迎参与开源社区建设"
-  tagline: 专注于构建轻量级、高性能的云原生基础设施与工具。
+  tagline: 专注于构建轻量级、高性能的现代化后端服务与工具。
+  image:
+    src:  logo.png
+    alt: qingzhou-logo
   actions:
     - theme: brand
       text: 浏览项目
       link: /#projects
     - theme: alt
-      text: 关于我们
+      text: GitHub 组织
       link: https://github.com/qingzhou-dev
 
 features:
-  - title: ☁️ 云原生优先
-    details: 所有项目均针对 Kubernetes 和容器化环境进行深度优化。
-  - title: ⚡️ 极致性能
-    details: 探索 GraalVM、Rust 等高性能技术，追求极致的资源效率。
-  - title: 👐 拥抱开源
-    details: 致力于开源生态建设，提供简单易用、文档完善的高质量工具。
+  - title: ⛵ 轻量高效
+    details: 坚持最小化资源占用，利用 GraalVM 静态编译实现秒级启动与极低物理内存损耗。
+  - title: ⚡ 极致性能
+    details: 深度优化通信与并发模型，结合高性能运行时，追求海量数据下的极致响应。
+  - title: 📖 开发者友好
+    details: 拒绝复杂的配置负担，提供“开箱即用”的体验与详尽的中文技术文档。
+  - title: 👐 纯粹开源
+    details: 社区驱动开发，致力于构建高质量、可信赖的工具链。
 
 ---
 
 <div id="projects"></div>
 
-## 🌟 精选项目
+## 🌟 开源项目列表
 
-<div class="vp-doc" style="margin-top: 2rem;">
+<div class="vp-doc" style="margin-top: 1rem;">
 
-| 项目 | 描述 | 状态     | 文档 |
-| :--- | :--- |:-------| :--- |
-| **Push Server** | 基于 GraalVM 的超轻量级企业微信消息推送网关 | 正在快速迭代 | [查看文档 →](/push-server/) |
+| 项目名称 | 核心描述 | 当前状态 | 快速开始 |
+| :--- | :--- | :--- | :--- |
+| **Push Server** | 基于 GraalVM 的轻量级企业微信消息推送网关 | 🚀 迭代中 | [查看文档 →](/push-server/) |
 
 </div>
+
+<style>
+/* 让表格在首页居中且更美观 */
+.vp-doc table {
+  display: table;
+  width: 100%;
+}
+</style>
