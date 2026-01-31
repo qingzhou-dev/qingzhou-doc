@@ -5,10 +5,12 @@ import { withMermaid } from 'vitepress-plugin-mermaid'
 export default withMermaid(defineConfig({
   title: "轻舟开源",
   description: "轻舟开源 - 构建高性能云原生工具",
+  head: [
+    ['link', { rel: 'icon', href: '/favicon.png' }]
+  ],
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
-    logo: { text: '⛵️ QingZhou' },
-    
+    logo: "/logo.png",
     search: {
       provider: 'local'
     },
