@@ -10,9 +10,9 @@ hero:
     - theme: brand
       text: 快速开始
       link: /push-server/guide/getting-started
-#    - theme: alt
-#      text: 架构设计
-#      link: /push-server/guide/architecture  # 增加架构说明会显得更专业
+    - theme: alt
+      text: 项目仓库
+      link: https://github.com/qingzhou-dev/push-server  # 增加架构说明会显得更专业
 
 features:
   - title: 🚀 极致轻量

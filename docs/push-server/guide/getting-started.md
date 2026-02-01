@@ -1,6 +1,6 @@
 # 快速开始
 
-Push Server 是一个基于 Spring Boot 3 和 GraalVM Native Image 构建的轻量级企业微信消息推送服务。
+Push Server 是一个基于 Spring Boot 4 和 GraalVM Native Image 构建的轻量级企业微信消息推送服务。
 
 ## 工作原理
 
@@ -26,6 +26,7 @@ sequenceDiagram
 在使用本服务之前，请确保你已经拥有企业微信管理员权限，并且能够创建自建应用。
 :::
 
+[注册企业微信教程](register-wechat.md)
 
 ## 部署方式
 
@@ -67,3 +68,9 @@ services:
 ```bash
 docker-compose up -d
 ```
+
+### 访问页面
+
+开始初始化
+
+![init.png](../../public/push-server/init.png)

@@ -35,19 +35,24 @@ export default withMermaid(defineConfig({
           ]
         },
         {
-          text: '使用指南',
+          text: "前置条件",
           items: [
-            { text: '快速开始', link: '/push-server/guide/getting-started' },
             { text: '注册企业微信', link: '/push-server/guide/register-wechat' },
-            { text: '配置详情', link: '/push-server/guide/configuration' }
           ]
         },
         {
-          text: '开发参考',
+          text: '使用指南',
           items: [
-            { text: 'API 文档', link: '/push-server/api/' }
+            { text: '快速开始', link: '/push-server/guide/getting-started' },
+            { text: '操作手册', link: '/push-server/guide/operating-manual' },
+            { text: '功能规划', link: '/push-server/guide/functional-planning' }
           ]
-        }
+        },
+        // {
+        //   text: '开发参考',
+        //   items: [
+        //   ]
+        // }
       ]
     },
     outline: {
