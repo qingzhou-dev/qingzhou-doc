@@ -6,6 +6,9 @@ hero:
   name: "Push Server"
   text: "轻量级消息推送服务"
   tagline: 专注于极致资源效率。基于 Spring Boot 4 与 GraalVM Native Image，实现 0 毫秒级响应唤醒与超低运行成本。
+  image:
+    src:  /push-server/logo.png
+    alt: qingzhou-push-server-logo 
   actions:
     - theme: brand
       text: 快速开始

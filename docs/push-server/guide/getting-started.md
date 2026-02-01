@@ -44,7 +44,7 @@ docker run -d \
   qingzhoudev/push-server:latest
 ```
 - 数据持久化：-v $(pwd)/data:/app/data粘贴应用数据（包括SQLite数据库）保存到当前目录下的data文件夹中。
-- 首次运行：启动后，访问http://localhost:8000，系统会自动启动至初始化页面。请根据引导完成管理员账号注册和企业微信配置。
+- 首次运行：启动后，访问 `http://localhost:8000`，系统会自动启动至初始化页面。请根据引导完成管理员账号注册和企业微信配置。
 
 
 ### 方式二：Docker Compose
