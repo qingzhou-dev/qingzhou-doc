@@ -20,7 +20,7 @@ export default withMermaid(defineConfig({
       { 
         text: '开源项目', 
         items: [
-          { text: 'Push Server', link: '/push-server/' }
+          { text: 'Push Server', link: '/push-server/index' }
         ]
       },
       { text: '关于我们', link: 'https://github.com/qingzhou-dev' }
@@ -31,7 +31,7 @@ export default withMermaid(defineConfig({
         {
           text: 'Push Server',
           items: [
-            { text: '项目简介', link: '/push-server/' }
+            { text: '项目简介', link: '/push-server/index' }
           ]
         },
         {
